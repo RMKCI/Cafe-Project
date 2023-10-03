@@ -1,0 +1,1012 @@
+/*  Ein Kommentar in CSS */
+
+/*  Der * definiert den "global reset" Hier werden alle Elemente angesprochen, die später nicht anders definiert werden. */
+*
+
+@media only screen and (max-width: 960px) { /* Für Geräte mit einer maximalen Breite von 960px */
+	/* Diese IDs und Klassen erhalten eine Breite von 100% */
+	#mama, #galerie, #film, #gallery-wrapper,
+	#head1, #head2, #head3, #head4, #social, 
+	#horse1, #horse2, #horse3, #logo h1, #logo h2, 
+	#new, #content, #inhalt2, #text, #about, 
+	#fruh, #fadeshow, #breakfast, #even, #contact, 
+	#texter, #ridingtext, #ridingvid, #luke, 
+	#carrie, #Jason, #event-item, #event-image, 
+	#event-content, #video1, #footer, #kunst, 
+	#india, #schmied, #golds, #smith, #gallery {
+	  width: 100%;
+	}
+  
+	/* Weitere spezifische Stile für verschiedene Elemente */
+	#navi {
+	  width: 100%;
+	  flex-direction: column;
+	  align-items: center;
+	}
+	
+	.ausrichten, .dropbtn {
+	  margin: 10px 0;
+	}
+	
+	#gallery img.output {
+	  width: 100%;
+	}
+	
+	#logo h1, #logo h2 {
+	  left: 0;
+	  text-align: center;
+	}
+	
+	#navi a {
+	  text-align: center;
+	}
+	
+	#social, #head1 {
+	  float: none;
+	}
+	
+	.icon {
+	  margin: 5px;
+	}
+  }
+  
+  @media only screen and (max-width: 600px) { /* Für Geräte mit einer maximalen Breite von 600px */
+	/* Diese Klassen und IDs erhalten weitere spezifische Stile */
+	#navi {
+	  font-size: 20px; /* Schriftgröße wird auf 20px festgelegt */
+	}
+	
+	.icon {
+	  width: 20px;
+	  height: 20px;
+	  line-height: 20px;
+	}
+  }
+  
+
+{
+/* margin definiert den Aussenabstand einer Box */	
+	margin:0px;	
+/* padding definiert	den Innenabstand einer Box */
+	padding:0px;
+/* font-family definiert die Schriftart */	
+	font-family:sans-serif;
+}
+
+
+html,body
+{
+	height:100%;
+	
+}
+
+/* Hintergrundbild der Webseite */
+
+#test
+
+{
+	
+	height:auto;
+	width:auto;
+	margin:auto;
+	background:url(../images/lake.jpg);
+	background-size:cover;
+}
+
+/* Komplettbox der Webseite */
+#mama
+
+{
+	height: auto;
+	width:auto;
+	margin:auto;
+	_background:url(../images/lake.jpg)fixed;
+	
+}
+
+/* "Ober" Box die Social Links umfasst */
+
+#head1
+
+{
+	height:50px;
+	background:blue;
+	float:right;
+}
+
+/* Box die Social Links umfasst */
+
+#social
+{
+	width:200px;
+	height:100px;
+	background:#97762f;
+	float:left;
+	position:relative;
+	
+}
+
+/* Positionsbestimmung der Social Media Icons */
+
+.icon
+{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	background:#97762f;
+	float:right;
+	margin-right:5px;
+	text-align:center;
+/* Einzeilige Texte können mit line-height gleich Höhe vertikal zentriert werden */	
+	line-height:30px;
+	color:white;
+}
+
+/* Box die Pferde Icons und die Best Western - Country Cafe Überschriften umfasst */	
+
+#head2
+
+{
+	
+	height:100px;
+	background:#97762f;
+	display:flex;
+	justify-content:center;
+}
+
+/* Box für Positionierung des linken Pferde Icons */
+
+#horse1
+
+{
+	width:80px;
+	_background:purple;
+	float:right;
+	position:relative;
+	left:30px;
+	top:15px;
+}
+
+/* Box für Positionierung des Huf und Pferd Icons */
+#horse2
+
+{
+	width:80px;
+	_background:green;
+	position:relative;
+	top:-10px;
+}
+
+/* Box für Positionierung des rechten Pferde Icons */
+
+#horse3
+
+{
+	width:80px;
+	_background:green;
+	position:relative;
+	left:120px;
+	top:15px;
+}
+
+/* Box Überschrift Best Western */
+
+#logo h1
+
+{
+width:200px;
+height:60px;
+float:center;
+_background:orange;
+font-family: 'Pinyon Script', cursive;
+font-size:35px;
+position:relative;
+left:40px;
+
+
+}
+
+/* Box Überschrift Country Cafe */
+
+#logo h2
+
+{
+	width:200px;
+	height:40px;
+	float:left;
+	_background:red;
+	font-family: 'Pinyon Script', cursive;
+	font-size:30px;
+	float:center;
+	position:relative;
+	left:140px;
+	top:-30px;
+	color:black;
+}
+
+/* "Ober" Box für Navigationsbar */
+
+#head3
+
+{
+	
+	height:80px;
+	_background:url(../images/bg.jpg) fixed; 
+	font-family:parisienne;
+}
+
+/* Box für Navigationsbar */
+#navi
+
+{
+	width:auto;
+	height:80px;
+	display:flex;
+	flex:left;
+	padding:10px;
+	background:url(../images/bg.jpg) fixed; 
+	justify-content:space-evenly;
+	position:relative;
+	font-family:parisienne;
+	font-size:30px;
+	
+}
+/* Box für Schrift Navigationsbar */
+#navi a
+
+{
+	font-family:parisienne;
+}
+
+/* Box für Ausrichtung Navigationsbar */
+
+.ausrichten
+
+{
+	background:#97762f;
+	border-radius:25px;
+	padding: 16px;
+	font-size: 25px;
+	
+	
+	 
+}
+
+/* Box für Hover Effekt für Navigationsbar */
+
+.ausrichten:hover {background-color:brown;
+					}
+
+/* Box für Dropdown Menü */
+
+.dropbtn {
+  background:#97762f;
+  padding: 16px;
+  font-size: 25px;
+  border-radius:25px;
+  border:none;
+  font-family:parisienne;
+
+  
+}
+
+/* Box für Dropdown Menü */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+/* Box für Dropdown Menü */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius:25px;
+  background:#97762f;
+  
+}
+
+/* Box für Dropdown Menü */
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+ 
+}
+
+/* Box für Dropdown Menü und den Hover Effekt */
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #7b6f0c;}
+
+/* Box für Dropdown Menü */
+
+.dropbtn1 {
+  background:#97762f;
+  padding: 16px;
+  font-size: 16px;
+  border:none;
+  
+}
+
+/* Box für Dropdown Menü */
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+  
+}
+
+/* Box für Dropdown Menü */
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius:25px;
+ 
+}
+
+/* Box für Dropdown Menü */
+
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Box für Dropdown Menü und den Hover Effekt */
+
+.dropdown-content1 a:hover {background-color: #ddd;}
+
+.dropdown1:hover .dropdown-content1 {display: block;}
+
+.dropdown1:hover .dropbtn1 {background-color: yellow;}
+
+
+
+/* Box für News Inhalt */
+
+#new 
+
+{
+	height:400px;
+	text-align:center;
+	background:#97762f;
+	color:black;
+	font-family: 'Parisienne', cursive;
+	position:relative;
+	top:2px;
+	
+}
+
+/* Box für News Überschrift */
+
+#new h1
+
+{
+	text-align:center;
+	color:black;
+	font-family: 'Parisienne', cursive;
+}
+
+/* Box für News Paragraph */
+
+#new p 
+
+{
+	background:#97762f;
+	color:black;
+}
+
+/* "Ober" Box für Inhalte der Live Music Seite */
+
+#content 
+
+{
+	height:auto;
+	background:#97762f;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+	color:black;
+	text-align:center;
+	
+	
+}
+
+/* Box für unteres Live Music Band Youtube Video */
+
+#inhalt2
+
+{
+	height:50%;
+	background:orange;
+}
+
+/* Box für Überschrift für das Live Music Band Video */
+
+#text
+
+{
+	height:40px;
+	background:black;
+	color:#97762f;
+	text-align:center;
+	position:relative;
+	top:2px;
+}
+
+/* Box für Überschrift Schriftanpassung für das Live Music Band Video */
+
+#text h3
+
+{
+	font-family:parisienne;
+}
+
+
+#galerie
+
+{
+	width:960px;
+	height:289px;
+	position:relative;
+	
+	
+	
+}
+
+/* Box für die About Us Seite */
+
+#about 
+
+{
+	
+	text-align:center;
+	background:#97762f;
+	text-align:left;
+	color:black;
+	position:relative;
+	top:2px;
+}
+
+/* Box für die Schriftanpassung About Us Seite */
+
+#about h1,h2,p
+
+{
+	text-align:center;
+	color:black;
+	font-family: 'Parisienne', cursive;
+}
+
+/* Box für Frühstück Seite */
+
+#fruh
+
+{
+	height:617px;
+	display:flex;
+	background:#97762f;
+	
+	
+}
+
+
+#fadeshow
+
+{
+	position:relative;
+	top:20px;
+	z-index:0;
+}
+
+/* Box die für Frühstück / Evening Drinks Seite gilt */
+
+#breakfast
+
+{
+	
+	display:flex;
+	flex-direction:column;
+	font-size:30px;
+	_background:#97762f;
+	position:relative;
+	top:20px;
+	z-index:0;
+	color:black;
+	
+	
+}
+
+/* Box für Evening Drinks Seite */
+
+#even
+{
+	height:617px;
+	display:flex;
+	background:#97762f;
+}
+
+/* Schriftanpassung vom paragraph der Box die für Frühstück / Evening Drinks Seite gilt */
+
+#breakfast p
+
+{
+	background:#97762f;
+	color:black;
+}
+
+
+
+/* Box für die Contact Us Seite */
+
+#contact
+
+{
+	height:600px;
+	background:#FDEFD2;
+	position:relative;
+	
+}
+
+#head4
+
+{
+	height:700px;
+	
+	margin:auto;
+}
+
+/* Willkommen Box auf Index Seite */
+
+#texter
+
+{
+	width:250px;
+	height:200px;
+	_background:green;
+	position:absolute;
+	top:70%;
+	left:40%;
+	z-index:1;
+	text-align:center;
+	opacity: 0.4;
+	color:red;
+	border:solid 2 px;
+	border-color:coral;
+	
+}
+
+/* Schriftanpassung Willkommen Box auf Index Seite */
+
+#texter a
+
+{
+	color:white;
+	font-family:parisienne;
+	font-size:60px;
+	_background:red;
+	opacity: 1;
+	border-style:solid;
+	border-color:white;
+	
+	
+}
+
+#texter:hover
+
+{
+	_background:white;
+}
+
+#texter a:hover
+
+{
+	background:white;
+		color:orange;
+		opacity: 0.7;
+		
+}
+
+/* Box für Anpassung zu Film auf Home Seite */
+
+#film
+
+{
+	width:auto;
+	height:700px;
+	background:black;
+	position:absolute;
+	top:32%;
+	left:10%;
+	
+	
+
+}
+
+/* Schriftanpassung Box auf Kunstreiten Seite */
+
+#ridingtext
+
+{
+	background:#97762f;
+}
+
+#ridingtext h2,p
+
+{
+	font-family:parisienne;
+	background:#97762f;
+	position:relative;
+	top:5px;
+}
+
+/* Box für das Youtube Video auf Kunstreiten Seite */
+
+#ridingvid
+
+{
+	
+	height:500px;
+}
+
+/* Schriftanpassung Box für "Live Music" Überschrift */
+
+#content
+
+{
+	position:relative;
+	top:5px;
+	background:#97762f;
+	color:black;
+}
+
+.funf
+
+{
+	font-family:parisienne;
+}
+
+/* Box für Luke Bryan Sänger Schrift und Bild Positionierung */
+
+#luke
+
+{
+	display:flex;
+	justify-content:space-evenly;
+}
+
+/* Box für Carrie Underwood Sänger Schrift und Bild Positionierung */
+
+#carrie 
+
+{
+	display:flex;
+	justify-content:space-evenly;
+	
+}
+
+/* Box für Jason Aldean Sänger Schrift und Bild Positionierung */
+
+#Jason
+
+{
+	display:flex;
+	justify-content:space-evenly;
+}
+
+/* Box die Sängerbilder und Textinhalt umfasst */
+
+.event-item 
+
+{
+	height:auto;
+	
+		
+}
+
+/* Box die Sängerbilder umfasst */
+
+.event-image
+
+{
+	
+	width:300px;
+	height:300px;
+	background:red;
+	border-radius:50%;
+	overflow:hidden;	
+}
+
+/* Box die Textinhalt Live Music umfasst */
+
+.event-content 
+
+{
+	height:200px;
+	float:right;
+	_background:orange;
+	font-family:parisienne;
+	
+}
+
+/* Box die Schriftanpassung des Textinhalts Live Music umfasst */
+
+.event-content h2,b
+
+{
+	font-family:parisienne;
+}
+
+/* Box für das Youtube Video auf der Live Music Seite  */
+
+#video1
+
+{
+	height:310px;
+}
+
+/* Box die das untere Ende Impressum / Datenschutz umfasst */
+
+#footer
+
+{
+	height:20px;
+	background:black;
+	color: white;
+	display:flex;
+	justify-content:center;
+	
+}
+
+/* Oberbox für Textfeld und Galerie der Vernissage Seite */
+
+#kunst
+
+{
+	height:565px;
+	background:black;
+}
+
+/* Oberbox für Textfeld und Galerie der Vernissage Seite */
+
+#india
+
+{
+	background:#97762f;
+	position:relative;
+	top:5px;
+}
+
+/* Oberbox Schriftanpassung für Textfeld und Galerie der Vernissage Seite */
+
+#india h2,p
+
+{
+	font-family:parisienne;
+	background:#97762f;
+}
+
+/* Oberbox für Textfeld und Bild der Handwerksserminare Seite */
+
+#schmied
+
+{
+	width:960px;
+	background:black;
+}
+
+/* Box für  Bild der Handwerksserminare Seite */
+
+#golds
+
+{
+	height:400px;
+	
+	
+}
+
+/* Box für Textfeld der Handwerksserminare Seite */
+
+#smith
+
+{
+	width:960px;
+	position:relative;
+	top:-2px;
+	background:#97762f;
+	
+	
+}
+
+#gallery-wrapper {
+	width: 960px;
+	height: 500px;
+	margin-bottom: 20px;
+	background:black;
+}
+
+#gallery
+{
+	width: 950px;
+	background:black;
+}
+
+#gallery img.output
+{
+	width: 950px;
+	height: 375px;
+	margin-bottom: 6px;
+	margin-left: 2px;
+	border: solid 5px #323435;
+}
+
+#gallery span.caption
+{
+	display: block;
+	margin: 1em 0 1em 0;
+}
+
+#thumbnail-bg {
+	background: #323435;
+}
+
+#gallery ul.thumbnails
+{
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 5px;
+}
+
+#gallery ul.thumbnails li
+{
+	float: left;
+	margin: 0 8px 1em 0;
+}
+
+#gallery ul.thumbnails li img .last 
+{
+	margin-right: 0px;
+}
+
+#gallery ul.thumbnails li img
+{
+	width: 137px;
+	height: 85px;
+	border: solid 5px #323435;
+	cursor: pointer;
+}
+
+#gallery ul.thumbnails li img.active
+{
+	border: solid 5px #262728;
+}
+
+.transparent {
+
+}
+
+body 
+{
+	background:white;
+	font-family:sans-serif;
+	color:black;
+	margin:0px;
+}
+
+img
+{
+	max-width:100%;
+	height:100%;
+	
+}
+
+a
+{
+	color:black;
+	text-decoration:none;
+	
+}
+
+
+
+/* MEDIA QUERY */
+@media screen and (max-width:800px) {
+
+
+#schmied
+
+{
+	display:block;
+	justify-content:center;
+	width:960px;
+	background:black;
+}
+
+
+
+#head2
+
+{
+	
+	height:auto;
+	background:#97762f;
+	display:block;
+	
+}
+
+#head3
+
+{
+	
+	height:80px;
+	_background:url(../images/bg.jpg) fixed; 
+	
+}
+
+
+
+#navi
+
+{
+	
+	display:block;
+	flex:none;
+	
+	background:url(../images/bg.jpg) fixed; 
+	
+	
+}	
+
+#navibar
+
+{
+	overflow:hidden;
+	}
+	
+#video2
+
+{
+	width:100%;
+	
+}
+
+#head2
+
+{
+	
+	height:100px;
+	background:#97762f;
+	display:block;
+	justify-content:center;
+}
+
+#mama
+
+{
+	width:96%;
+	
+	
+	margin:auto;
+	
+}
+	
+}
